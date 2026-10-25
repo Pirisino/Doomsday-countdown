@@ -13,6 +13,7 @@
 4. Dopo 1-2 minuti il sito è su https://TUOUTENTE.github.io/road-to-doomsday/
 5. Apri quell'indirizzo dal telefono e installalo (istruzioni in fondo alla pagina).
 
+
 ## Aggiornamenti
 Quando cambi la lista o il codice, incrementa VERSION in sw.js (rtd-v1 -> rtd-v2).
 Non cambiare mai gli "id" delle voci né "storageKey": le spunte salvate sono legate a quelli.
