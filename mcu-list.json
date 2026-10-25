@@ -1,0 +1,792 @@
+{
+ "config": {
+  "title": "Road to Doomsday",
+  "targetDate": "2026-12-18",
+  "targetLabel": "Avengers: Doomsday",
+  "storageKey": "rtd-v1"
+ },
+ "items": [
+  {
+   "id": "x-men",
+   "title": "X-Men",
+   "year": 2000,
+   "type": "film",
+   "minutes": 104,
+   "required": false,
+   "essentials": "core",
+   "group": "Prologo X-Men (Fox)",
+   "note": "Non MCU: introduce Xavier, Magneto e il cast che torna in Doomsday."
+  },
+  {
+   "id": "x-men-2",
+   "title": "X-Men 2",
+   "year": 2003,
+   "type": "film",
+   "minutes": 134,
+   "required": false,
+   "essentials": "core",
+   "group": "Prologo X-Men (Fox)",
+   "note": "Non MCU: continua la storia del cast originale."
+  },
+  {
+   "id": "iron-man",
+   "title": "Iron Man",
+   "year": 2008,
+   "type": "film",
+   "minutes": 126,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 1"
+  },
+  {
+   "id": "l-incredibile-hulk",
+   "title": "L'incredibile Hulk",
+   "year": 2008,
+   "type": "film",
+   "minutes": 112,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 1"
+  },
+  {
+   "id": "iron-man-2",
+   "title": "Iron Man 2",
+   "year": 2010,
+   "type": "film",
+   "minutes": 124,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 1"
+  },
+  {
+   "id": "thor",
+   "title": "Thor",
+   "year": 2011,
+   "type": "film",
+   "minutes": 115,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 1"
+  },
+  {
+   "id": "captain-america-il-primo-vendicatore",
+   "title": "Captain America - Il primo vendicatore",
+   "year": 2011,
+   "type": "film",
+   "minutes": 124,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 1",
+   "note": "Origine di Steve Rogers e del Tesseract."
+  },
+  {
+   "id": "agent-carter-serie",
+   "title": "Agent Carter (serie)",
+   "year": 2015,
+   "type": "serie",
+   "minutes": 780,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 1",
+   "note": "Spostata qui: si svolge dopo Il primo vendicatore."
+  },
+  {
+   "id": "the-avengers",
+   "title": "The Avengers",
+   "year": 2012,
+   "type": "film",
+   "minutes": 143,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 1",
+   "note": "Primo team-up; primo sguardo a Thanos."
+  },
+  {
+   "id": "iron-man-3",
+   "title": "Iron Man 3",
+   "year": 2013,
+   "type": "film",
+   "minutes": 130,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 2"
+  },
+  {
+   "id": "thor-the-dark-world",
+   "title": "Thor: The Dark World",
+   "year": 2013,
+   "type": "film",
+   "minutes": 112,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 2"
+  },
+  {
+   "id": "agents-of-s-h-i-e-l-d",
+   "title": "Agents of S.H.I.E.L.D.",
+   "year": 2013,
+   "type": "serie",
+   "minutes": 5400,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 2",
+   "note": "7 stagioni; canonicità discussa."
+  },
+  {
+   "id": "captain-america-the-winter-soldier",
+   "title": "Captain America: The Winter Soldier",
+   "year": 2014,
+   "type": "film",
+   "minutes": 136,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 2"
+  },
+  {
+   "id": "x-men-giorni-di-un-futuro-passato",
+   "title": "X-Men: Giorni di un futuro passato",
+   "year": 2014,
+   "type": "film",
+   "minutes": 132,
+   "required": false,
+   "essentials": "optional",
+   "group": "Fase 2",
+   "note": "Non MCU: riscrive il finale della trilogia originale."
+  },
+  {
+   "id": "guardiani-della-galassia",
+   "title": "Guardiani della Galassia",
+   "year": 2014,
+   "type": "film",
+   "minutes": 121,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 2"
+  },
+  {
+   "id": "guardiani-della-galassia-vol-2",
+   "title": "Guardiani della Galassia Vol. 2",
+   "year": 2017,
+   "type": "film",
+   "minutes": 136,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 2",
+   "note": "Fix: subito dopo il Vol. 1."
+  },
+  {
+   "id": "daredevil-netflix",
+   "title": "Daredevil (Netflix)",
+   "year": 2015,
+   "type": "serie",
+   "minutes": 2340,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 2",
+   "note": "3 stagioni; base per Daredevil: Rinascita."
+  },
+  {
+   "id": "avengers-age-of-ultron",
+   "title": "Avengers: Age of Ultron",
+   "year": 2015,
+   "type": "film",
+   "minutes": 141,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 2",
+   "note": "Nascita di Visione e Ultron."
+  },
+  {
+   "id": "ant-man",
+   "title": "Ant-Man",
+   "year": 2015,
+   "type": "film",
+   "minutes": 117,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 2"
+  },
+  {
+   "id": "jessica-jones-netflix",
+   "title": "Jessica Jones (Netflix)",
+   "year": 2015,
+   "type": "serie",
+   "minutes": 2340,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 2"
+  },
+  {
+   "id": "captain-america-civil-war",
+   "title": "Captain America: Civil War",
+   "year": 2016,
+   "type": "film",
+   "minutes": 147,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "black-widow",
+   "title": "Black Widow",
+   "year": 2021,
+   "type": "film",
+   "minutes": 134,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 3",
+   "note": "Fix: si svolge subito dopo Civil War."
+  },
+  {
+   "id": "luke-cage-netflix",
+   "title": "Luke Cage (Netflix)",
+   "year": 2016,
+   "type": "serie",
+   "minutes": 1560,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "doctor-strange",
+   "title": "Doctor Strange",
+   "year": 2016,
+   "type": "film",
+   "minutes": 115,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "iron-fist-netflix",
+   "title": "Iron Fist (Netflix)",
+   "year": 2017,
+   "type": "serie",
+   "minutes": 1380,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "spider-man-homecoming",
+   "title": "Spider-Man: Homecoming",
+   "year": 2017,
+   "type": "film",
+   "minutes": 133,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "the-defenders-netflix",
+   "title": "The Defenders (Netflix)",
+   "year": 2017,
+   "type": "serie",
+   "minutes": 400,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "thor-ragnarok",
+   "title": "Thor: Ragnarok",
+   "year": 2017,
+   "type": "film",
+   "minutes": 130,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "the-punisher-netflix",
+   "title": "The Punisher (Netflix)",
+   "year": 2017,
+   "type": "serie",
+   "minutes": 1500,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "black-panther",
+   "title": "Black Panther",
+   "year": 2018,
+   "type": "film",
+   "minutes": 134,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "avengers-infinity-war",
+   "title": "Avengers: Infinity War",
+   "year": 2018,
+   "type": "film",
+   "minutes": 149,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 3",
+   "note": "Thanos e lo schiocco."
+  },
+  {
+   "id": "ant-man-and-the-wasp",
+   "title": "Ant-Man and the Wasp",
+   "year": 2018,
+   "type": "film",
+   "minutes": 118,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "captain-marvel",
+   "title": "Captain Marvel",
+   "year": 2019,
+   "type": "film",
+   "minutes": 124,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "avengers-endgame",
+   "title": "Avengers: Endgame",
+   "year": 2019,
+   "type": "film",
+   "minutes": 181,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 3",
+   "note": "Chiude la Saga dell'Infinito."
+  },
+  {
+   "id": "spider-man-far-from-home",
+   "title": "Spider-Man: Far From Home",
+   "year": 2019,
+   "type": "film",
+   "minutes": 129,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 3"
+  },
+  {
+   "id": "wandavision",
+   "title": "WandaVision",
+   "year": 2021,
+   "type": "serie",
+   "minutes": 350,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 4"
+  },
+  {
+   "id": "the-falcon-and-the-winter-soldier",
+   "title": "The Falcon and the Winter Soldier",
+   "year": 2021,
+   "type": "serie",
+   "minutes": 350,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 4"
+  },
+  {
+   "id": "loki-stagione-1",
+   "title": "Loki - Stagione 1",
+   "year": 2021,
+   "type": "serie",
+   "minutes": 300,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 4",
+   "note": "Introduce multiverso e TVA."
+  },
+  {
+   "id": "what-if-stagione-1",
+   "title": "What If...? - Stagione 1",
+   "year": 2021,
+   "type": "serie",
+   "minutes": 300,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 4",
+   "note": "Animazione."
+  },
+  {
+   "id": "shang-chi-e-la-leggenda-dei-dieci-anelli",
+   "title": "Shang-Chi e la leggenda dei Dieci Anelli",
+   "year": 2021,
+   "type": "film",
+   "minutes": 132,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 4"
+  },
+  {
+   "id": "eternals",
+   "title": "Eternals",
+   "year": 2021,
+   "type": "film",
+   "minutes": 156,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 4"
+  },
+  {
+   "id": "hawkeye",
+   "title": "Hawkeye",
+   "year": 2021,
+   "type": "serie",
+   "minutes": 350,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 4"
+  },
+  {
+   "id": "spider-man-no-way-home",
+   "title": "Spider-Man: No Way Home",
+   "year": 2021,
+   "type": "film",
+   "minutes": 148,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 4",
+   "note": "Il multiverso porta personaggi da altri franchise."
+  },
+  {
+   "id": "moon-knight",
+   "title": "Moon Knight",
+   "year": 2022,
+   "type": "serie",
+   "minutes": 300,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 4"
+  },
+  {
+   "id": "doctor-strange-nel-multiverso-della-follia",
+   "title": "Doctor Strange nel Multiverso della Follia",
+   "year": 2022,
+   "type": "film",
+   "minutes": 126,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 4"
+  },
+  {
+   "id": "ms-marvel",
+   "title": "Ms. Marvel",
+   "year": 2022,
+   "type": "serie",
+   "minutes": 300,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 4"
+  },
+  {
+   "id": "thor-love-and-thunder",
+   "title": "Thor: Love and Thunder",
+   "year": 2022,
+   "type": "film",
+   "minutes": 119,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 4"
+  },
+  {
+   "id": "she-hulk-attorney-at-law",
+   "title": "She-Hulk: Attorney at Law",
+   "year": 2022,
+   "type": "serie",
+   "minutes": 300,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 4"
+  },
+  {
+   "id": "werewolf-by-night",
+   "title": "Werewolf by Night",
+   "year": 2022,
+   "type": "serie",
+   "minutes": 53,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 4",
+   "note": "Speciale."
+  },
+  {
+   "id": "black-panther-wakanda-forever",
+   "title": "Black Panther: Wakanda Forever",
+   "year": 2022,
+   "type": "film",
+   "minutes": 161,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 4",
+   "note": "Introduce Namor."
+  },
+  {
+   "id": "guardiani-della-galassia-holiday-special",
+   "title": "Guardiani della Galassia: Holiday Special",
+   "year": 2022,
+   "type": "serie",
+   "minutes": 44,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 4",
+   "note": "Speciale."
+  },
+  {
+   "id": "ant-man-and-the-wasp-quantumania",
+   "title": "Ant-Man and the Wasp: Quantumania",
+   "year": 2023,
+   "type": "film",
+   "minutes": 124,
+   "required": true,
+   "essentials": "optional",
+   "group": "Fase 5"
+  },
+  {
+   "id": "guardiani-della-galassia-vol-3",
+   "title": "Guardiani della Galassia Vol. 3",
+   "year": 2023,
+   "type": "film",
+   "minutes": 150,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 5"
+  },
+  {
+   "id": "secret-invasion",
+   "title": "Secret Invasion",
+   "year": 2023,
+   "type": "serie",
+   "minutes": 260,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 5"
+  },
+  {
+   "id": "loki-stagione-2",
+   "title": "Loki - Stagione 2",
+   "year": 2023,
+   "type": "serie",
+   "minutes": 300,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 5"
+  },
+  {
+   "id": "what-if-stagione-2",
+   "title": "What If...? - Stagione 2",
+   "year": 2023,
+   "type": "serie",
+   "minutes": 300,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 5",
+   "note": "Animazione."
+  },
+  {
+   "id": "the-marvels",
+   "title": "The Marvels",
+   "year": 2023,
+   "type": "film",
+   "minutes": 105,
+   "required": true,
+   "essentials": "optional",
+   "group": "Fase 5",
+   "note": "Il finale collega all'universo X-Men."
+  },
+  {
+   "id": "echo",
+   "title": "Echo",
+   "year": 2024,
+   "type": "serie",
+   "minutes": 200,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 5"
+  },
+  {
+   "id": "x-men-97",
+   "title": "X-Men '97",
+   "year": 2024,
+   "type": "serie",
+   "minutes": 300,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 5",
+   "note": "Animazione."
+  },
+  {
+   "id": "deadpool-wolverine",
+   "title": "Deadpool & Wolverine",
+   "year": 2024,
+   "type": "film",
+   "minutes": 128,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 5",
+   "note": "Porta gli X-Men Fox nel multiverso MCU."
+  },
+  {
+   "id": "agatha-all-along",
+   "title": "Agatha All Along",
+   "year": 2024,
+   "type": "serie",
+   "minutes": 300,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 5"
+  },
+  {
+   "id": "what-if-stagione-3",
+   "title": "What If...? - Stagione 3",
+   "year": 2024,
+   "type": "serie",
+   "minutes": 250,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 5",
+   "note": "Animazione."
+  },
+  {
+   "id": "your-friendly-neighborhood-spider-man",
+   "title": "Your Friendly Neighborhood Spider-Man",
+   "year": 2025,
+   "type": "serie",
+   "minutes": 250,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 5",
+   "note": "Animazione."
+  },
+  {
+   "id": "captain-america-brave-new-world",
+   "title": "Captain America: Brave New World",
+   "year": 2025,
+   "type": "film",
+   "minutes": 118,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 5",
+   "note": "Sam Wilson nuovo Captain America."
+  },
+  {
+   "id": "daredevil-rinascita-stagione-1",
+   "title": "Daredevil: Rinascita - Stagione 1",
+   "year": 2025,
+   "type": "serie",
+   "minutes": 360,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 5"
+  },
+  {
+   "id": "thunderbolts",
+   "title": "Thunderbolts*",
+   "year": 2025,
+   "type": "film",
+   "minutes": 127,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 5"
+  },
+  {
+   "id": "ironheart",
+   "title": "Ironheart",
+   "year": 2025,
+   "type": "serie",
+   "minutes": 240,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 5"
+  },
+  {
+   "id": "i-fantastici-quattro-gli-inizi",
+   "title": "I Fantastici Quattro: Gli inizi",
+   "year": 2025,
+   "type": "film",
+   "minutes": 115,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 6",
+   "note": "Prima apparizione del Dottor Destino."
+  },
+  {
+   "id": "eyes-of-wakanda",
+   "title": "Eyes of Wakanda",
+   "year": 2025,
+   "type": "serie",
+   "minutes": 120,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 6",
+   "note": "Animazione."
+  },
+  {
+   "id": "marvel-zombies",
+   "title": "Marvel Zombies",
+   "year": 2025,
+   "type": "serie",
+   "minutes": 160,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 6",
+   "note": "Animazione."
+  },
+  {
+   "id": "wonder-man",
+   "title": "Wonder Man",
+   "year": 2026,
+   "type": "serie",
+   "minutes": 240,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 6"
+  },
+  {
+   "id": "daredevil-rinascita-stagione-2",
+   "title": "Daredevil: Rinascita - Stagione 2",
+   "year": 2026,
+   "type": "serie",
+   "minutes": 360,
+   "required": true,
+   "essentials": null,
+   "group": "Fase 6"
+  },
+  {
+   "id": "the-punisher-one-last-kill",
+   "title": "The Punisher: One Last Kill",
+   "year": 2026,
+   "type": "serie",
+   "minutes": 60,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 6",
+   "note": "Speciale; durata da verificare."
+  },
+  {
+   "id": "spider-man-brand-new-day",
+   "title": "Spider-Man: Brand New Day",
+   "year": 2026,
+   "type": "film",
+   "minutes": 135,
+   "required": true,
+   "essentials": "core",
+   "group": "Fase 6",
+   "note": "Bruce Banner fa da ponte verso Doomsday. Durata stimata."
+  },
+  {
+   "id": "visionquest",
+   "title": "VisionQuest",
+   "year": 2026,
+   "type": "serie",
+   "minutes": 400,
+   "required": false,
+   "essentials": null,
+   "group": "Fase 6",
+   "note": "In uscita dal 14/10/2026; durata stimata."
+  }
+ ]
+}
